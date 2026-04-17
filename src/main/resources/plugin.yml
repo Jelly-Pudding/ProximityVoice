@@ -1,0 +1,19 @@
+name: ProximityVoice
+version: '${version}'
+main: com.jellypudding.proximityVoice.ProximityVoice
+api-version: '1.21'
+description: Proximity voice chat plugin which works with the Simple Voice Chat client mod
+author: AlphaAlex115
+website: www.minecraftoffline.net
+
+commands:
+  proximityvoice:
+    description: Main command for ProximityVoice
+    permission: proximityvoice.admin
+    permission-message: You cannot use this command due to insufficient permission.
+    usage: "/proximityvoice reload"
+
+permissions:
+  proximityvoice.admin:
+    description: Gives access to all ProximityVoice commands
+    default: op

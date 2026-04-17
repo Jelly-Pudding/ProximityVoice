@@ -1,0 +1,15 @@
+# ProximityVoice Configuration
+# Open UDP port 'voice-port' on your firewall before starting the server.
+
+voice-port: 24454
+voice-distance: 48.0
+whisper-distance: 6.0
+keep-alive: 3000
+mtu-size: 1024
+
+# SVC client compatibility version. The 2.6.x client for Minecraft 1.21.11 uses 20.
+# If voice chat fails silently, check server logs for "compat version" warnings.
+compatibility-version: 20
+
+# Set to true to log detailed UDP packet and routing information.
+debug: false
