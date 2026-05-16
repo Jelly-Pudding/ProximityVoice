@@ -1,6 +1,6 @@
 # ProximityVoice Plugin
 
-**ProximityVoice** is a lean Paper 1.21.11 plugin focused on proximity voice chat and nothing else. Although it was custom built for [minecraftoffline.net](https://www.minecraftoffline.net), any server can use it.
+**ProximityVoice** is a lean Paper 26.1.2 plugin focused on proximity voice chat and nothing else. Although it was custom built for [minecraftoffline.net](https://www.minecraftoffline.net), any server can use it.
 
 The plugin implements the [Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat) client protocol (by [henkelmax](https://github.com/henkelmax)) directly so the Simple Voice Chat server plugin is not required. Players will need the [client mod installed](#client-installation-players) though.
 

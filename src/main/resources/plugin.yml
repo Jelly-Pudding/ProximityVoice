@@ -1,7 +1,7 @@
 name: ProximityVoice
 version: '${version}'
 main: com.jellypudding.proximityVoice.ProximityVoice
-api-version: '1.21'
+api-version: '26.1.2'
 description: Proximity voice chat plugin which works with the Simple Voice Chat client mod
 author: AlphaAlex115
 website: www.minecraftoffline.net
