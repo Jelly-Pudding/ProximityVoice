@@ -1,6 +1,6 @@
 # ProximityVoice Plugin
 
-**ProximityVoice** is a lean Paper 26.1.2 plugin focused on proximity voice chat and nothing else. Although it was custom built for [minecraftoffline.net](https://www.minecraftoffline.net), any server can use it.
+**ProximityVoice** is a lean Paper 26.2 plugin focused on proximity voice chat and nothing else. Although it was custom built for [minecraftoffline.net](https://www.minecraftoffline.net), any server can use it.
 
 The plugin implements the [Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat) client protocol (by [henkelmax](https://github.com/henkelmax)) directly so the Simple Voice Chat server plugin is not required. Players will need the [client mod installed](#client-installation-players) though.
 
@@ -18,10 +18,10 @@ The plugin implements the [Simple Voice Chat](https://modrinth.com/plugin/simple
 
 ## Client Installation (Players)
 
-Players install the Simple Voice Chat client mod for Minecraft 1.21.11. ProximityVoice implements the same protocol server-side so the client connects to it without any extra setup.
+Players install the Simple Voice Chat client mod for Minecraft 26.2. ProximityVoice implements the same protocol server-side so the client connects to it without any extra setup.
 
-1. Install [Fabric](https://fabricmc.net/use/installer/) for Minecraft 1.21.11.
-2. Download the Simple Voice Chat mod for Minecraft 1.21.11 from [CurseForge](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/all?page=1&pageSize=20&version=1.21.11).
+1. Install [Fabric](https://fabricmc.net/use/installer/) for Minecraft 26.2.
+2. Download the Simple Voice Chat mod for Minecraft 26.2 from [CurseForge](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/all?page=1&pageSize=20&version=26.2).
 3. Drop the mod `.jar` into your Fabric mods folder. On Windows this is typically `%AppData%\.minecraft\mods`.
 4. Launch Minecraft and connect to the server as normal. Voice chat activates automatically.
 
@@ -38,7 +38,7 @@ whisper-distance: 6.0
 keep-alive: 3000
 mtu-size: 1024
 
-# SVC client compatibility version. The 2.6.x client for Minecraft 1.21.11 uses 20.
+# SVC client compatibility version. The 2.6.x client for Minecraft 26.2 uses 20.
 # If voice chat fails silently, check server logs for "compat version" warnings.
 compatibility-version: 20
 
@@ -53,7 +53,7 @@ debug: false
 | `whisper-distance` | `6.0` | Max range in blocks for whispering |
 | `keep-alive` | `3000` | Milliseconds between keepalive pings. Players who go 30 seconds without responding are disconnected from voice. |
 | `mtu-size` | `1024` | UDP packet size limit |
-| `compatibility-version` | `20` | Must match what the client mod sends. The Simple Voice Chat client for Minecraft 1.21.11 uses 20. |
+| `compatibility-version` | `20` | Must match what the client mod sends. The Simple Voice Chat client for Minecraft 26.2 uses 20. |
 | `debug` | `false` | Log detailed UDP packet and routing information. |
 
 ## Port Forwarding
