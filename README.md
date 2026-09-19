@@ -18,9 +18,9 @@ The plugin implements the [Simple Voice Chat](https://modrinth.com/plugin/simple
 
 ## Client Installation (Players)
 
-Players install the Simple Voice Chat client mod for Minecraft 26.2. ProximityVoice implements the same protocol server-side so the client connects to it without any extra setup.
+Players install the Simple Voice Chat client mod for Minecraft 26.3. ProximityVoice implements the same protocol server-side so the client connects to it without any extra setup.
 
-1. Install [Fabric](https://fabricmc.net/use/installer/) for Minecraft 26.2.
+1. Install [Fabric](https://fabricmc.net/use/installer/) for Minecraft 26.3.
 2. Download the Simple Voice Chat mod for Minecraft 26.3 from [CurseForge](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat/files/all?page=1&pageSize=20&version=26.3).
 3. Drop the mod `.jar` into your Fabric mods folder. On Windows this is typically `%AppData%\.minecraft\mods`.
 4. Launch Minecraft and connect to the server as normal. Voice chat activates automatically.
