@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.jellypudding"
-version = "1.2"
+version = "1.3"
 
 repositories {
     mavenCentral()
@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies {
-    paperweight.paperDevBundle("26.2.build.+")
+    paperweight.paperDevBundle("26.3.build.+")
 }
 
 java {
